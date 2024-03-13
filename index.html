@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by ari</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amor Felino - Adopción de Gatos</title>
+    <style>
+        body {
+            background-color: #FFA500; /* Naranja */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #fff; /* Texto blanco */
+        }
+
+        p {
+            color: #fff;
+        }
+
+        #adoptButton {
+            background-color: #fff;
+            color: #FFA500; /* Naranja */
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #catImage {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Amor Felino</h1>
+        <p>Llevamos a cabo los procesos burocráticos de la adopción para que encuentres a tu compañero felino perfecto.</p>
+        <button id="adoptButton" onclick="mostrarImagen()">¡Adopta un gato!</button>
+        <img id="catImage" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.latimes.com%2Fespanol%2Fvida-y-estilo%2Farticulo%2F2020-08-08%2Fhoyla-recuento-11-cosas-aman-gatos-top&psig=AOvVaw3vMlnbGoCrG63ChpQUtelq&ust=1710445135684000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjVqOv-8YQDFQAAAAAdAAAAABAE" alt="Gato adorable">
+    </div>
+
+    <script>
+        function mostrarImagen() {
+            document.getElementById('catImage').style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
