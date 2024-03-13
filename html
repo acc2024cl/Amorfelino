@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amor Felino - Adopción de Gatos</title>
+    <style>
+        body {
+            background-color: #FFA500; /* Naranja */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: #fff; /* Texto blanco */
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #fff; /* Texto blanco */
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        #adoptButton {
+            background-color: #fff;
+            color: #FFA500; /* Naranja */
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #catImage {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Amor Felino - Adopción de Gatos</h1>
+        <p>En Amor Felino, nos dedicamos a encontrar hogares amorosos para gatos sin hogar. Nuestra misión es promover la adopción responsable y facilitar el proceso para que encuentres a tu nuevo compañero felino.</p>
+        <p>Ofrecemos servicios personalizados y nos encargamos de todos los procesos burocráticos para que tu experiencia de adopción sea suave y satisfactoria.</p>
+        <button id="adoptButton" onclick="mostrarImagen()">¡Adopta un gato por esto!</button>
+        <img id="catImage" src="https://ca-times.brightspotcdn.com/dims4/default/796e6c9/2147483647/strip/true/crop/1970x1108+39+0/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F12%2Fa5%2F79e097ccf62312d18a025f22ce48%2Fhoyla-recuento-11-cosas-aman-gatos-top-001" alt="Gato adorable">
+    </div>
+
+    <script>
+        function mostrarImagen() {
+            document.getElementById('catImage').style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
